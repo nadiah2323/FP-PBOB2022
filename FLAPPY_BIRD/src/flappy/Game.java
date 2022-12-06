@@ -25,7 +25,7 @@ public class Game extends JPanel implements Runnable, MouseListener {
     int frameIndexFly = 0, intervalFrame = 5;
     Direction direction;
     float velocity = 0;
-    float gravity = 0.25f;
+    float gravity = 0.75f;
     boolean inGame;
     BufferedImage topPipe, bottomPipe;
     Obstacle[] obstacles;
@@ -307,4 +307,3 @@ public class Game extends JPanel implements Runnable, MouseListener {
 
     }
 }
-
