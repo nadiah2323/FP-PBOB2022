@@ -281,7 +281,8 @@ public class GamePanel extends JPanel implements Runnable, MouseListener{
             e.printStackTrace();
         }
     }
-
+    
+    //input
     @Override
     public void mouseClicked(MouseEvent e) {
 
