@@ -9,7 +9,7 @@ import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.util.Random;
 
-
+//inheritance
 public class GamePanel extends JPanel implements Runnable, MouseListener{
 
     boolean isRunning;
@@ -58,6 +58,7 @@ public class GamePanel extends JPanel implements Runnable, MouseListener{
     }
 
     public void start() {
+        //exception handling
         try {
             view = new BufferedImage(SIZE, SIZE, BufferedImage.TYPE_INT_RGB);
             background = ImageIO.read(getClass().getResource("/assets/background.png"));
