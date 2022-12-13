@@ -6,6 +6,7 @@ package main;
 import javax.swing.*;
 
 public class GameWindow {
+    //GUI
     private JFrame w; 
     
     public GameWindow(GamePanel gamePanel){
