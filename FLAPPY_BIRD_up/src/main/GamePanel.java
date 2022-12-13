@@ -47,6 +47,7 @@ public class GamePanel extends JPanel implements Runnable, MouseListener{
         setMaximumSize(size);
     }
     
+    //override
     @Override
     public void addNotify() {
         super.addNotify();
@@ -131,7 +132,8 @@ public class GamePanel extends JPanel implements Runnable, MouseListener{
     public void update() {
         backgroundBox.x -= 1;
         floorBox.x -= 3;
-
+        
+        //casting
         if (backgroundBox.x + backgroundBox.getWidth() <= 0) {
             backgroundBox.x = (int) (backgroundBox.x + backgroundBox.getWidth());
         }
