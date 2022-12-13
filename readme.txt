@@ -7,7 +7,7 @@ sumber referensi : https://github.com/FunGameDeveloperFGD/JavaGame_FlappyBird
 
 Aspek OOP yang diterapkan :
 1. Casting/Conversion (src/main/GamePanel.java)
-2. Constructor (src/main/Game.java)
+2. Constructor (src/main/Game.java, src/main/Obstacle)
 3. Overriding (src/main/GamePanel.java)
 4. Inheritance (src/main/GamePanel.java)
 5. Exception Handling (src/main/GamePanel.java)
