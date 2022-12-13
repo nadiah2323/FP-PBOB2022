@@ -12,21 +12,17 @@ import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 import java.util.Random;
 
-public class Game extends JPanel{
+
+public class Game {
     
     private GameWindow gameWindow;
     private GamePanel gamePanel;
-    
+        
+    //constructor
        public Game() {
         gamePanel = new GamePanel();
         gameWindow = new GameWindow(gamePanel);
         gamePanel.requestFocus();
         
     }
-    
-    
-    
-    
-    
-    
 }
